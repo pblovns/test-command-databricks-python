@@ -1,3 +1,5 @@
+# Databricks notebook source
+
 # COMMAND ----------
 
 import pyspark.sql.functions as F
