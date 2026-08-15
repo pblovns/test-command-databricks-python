@@ -1,5 +1,2 @@
 pre-commit
-ruff
 black
-isort
-mypy
