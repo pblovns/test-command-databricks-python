@@ -13,6 +13,7 @@
 
 # DBTITLE 1,Importação de Bibliotecas
 import pyspark.sql.functions as F
+
 # Importando apenas o módulo de funções do PySpark para otimizar memória
 
 # COMMAND ----------
@@ -23,12 +24,14 @@ df = spark.read.table("dados_rh.`2_silver`.silver_funcionarios")
 
 # COMMAND ----------
 
+
 # DBTITLE 1,Tratamento de Dados
 def tratar_dados_funcionarios(dataframe):
     """
     Filtra o dataframe mantendo apenas as colunas 'id' e 'funcionario'.
     """
-    return dataframe.select(F.col('id'), F.col('funcionario'))
+    return dataframe.select(F.col("id"), F.col("funcionario"))
+
 
 df_tratado = tratar_dados_funcionarios(df)
 
