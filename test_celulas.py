@@ -1,9 +1,3 @@
-"""
-Pipeline de Tratamento - Dados de RH
-Descrição: Este script faz a leitura e o tratamento inicial dos dados de 
-funcionários vindos da camada Silver, preparando-os para análise.
-"""
-
 # Databricks notebook source
 
 # COMMAND ----------
