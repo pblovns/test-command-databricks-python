@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        python-version: ['3.10', '3.11', '3.12']
+        python-version: ['3.12']
     steps:
       - uses: actions/checkout@v4
 
@@ -23,5 +23,5 @@ jobs:
           python -m pip install --upgrade pip
           pip install black
 
-      - name: Black check
-        run: black --check .
+      - name: Black check (print diffs)
+        run: black --check --diff .
