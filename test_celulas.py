@@ -1,7 +1,4 @@
 # Databricks notebook source
-
-# COMMAND ----------
-
 import pyspark.sql.functions as F
 
 # COMMAND ----------
@@ -15,5 +12,3 @@ df_tratado = (df.select(F.col('id'), F.col('funcionario')))
 # COMMAND ----------
 
 display(df_tratado)
-
-# COMMAND ----------
