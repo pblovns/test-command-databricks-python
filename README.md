@@ -10,7 +10,7 @@ pre-commit install
 pre-commit run --all-files
 ```
 
-CI: The workflow is at `.github/workflows/ci.yml` and runs on push and pull_request.
+CI: The workflow is at `.github/workflows/ci.yml` and runs on push and pull_request COLOQUEI INFORMAÇÃO AQUI.
 
 Databricks / local development
 --------------------------------
