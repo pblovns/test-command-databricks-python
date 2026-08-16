@@ -20,7 +20,7 @@ import pyspark.sql.functions as F
 
 # DBTITLE 1,Leitura da Tabela Silver
 # Lendo a tabela direto do Unity Catalog / Metastore
-df = spark.read.table("dados_rh.`2_silver`.silver_funcionarios")
+df                    =                     spark.read.table("dados_rh.`2_silver`.silver_funcionarios")
 
 # COMMAND ----------
 
