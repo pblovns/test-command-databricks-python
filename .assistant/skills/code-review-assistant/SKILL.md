@@ -1,3 +1,5 @@
+# Skill: code-review-assistant
+
 ---
 name: code-review-assistant
 description: "Revisor de código sênior especializado em Databricks: analisa PySpark, SQL e Delta Live Tables para prevenir quebras de execução, otimizar performance e validar aderência à Arquitetura Medallion."
